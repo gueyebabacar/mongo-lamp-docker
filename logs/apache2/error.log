@@ -24,3 +24,7 @@ AH00558: apache2: Could not reliably determine the server's fully qualified doma
 AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.22.0.4. Set the 'ServerName' directive globally to suppress this message
 [Mon Jul 08 21:32:19.411496 2019] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 configured -- resuming normal operations
 [Mon Jul 08 21:32:19.412216 2019] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 172.18.0.4. Set the 'ServerName' directive globally to suppress this message
+[Wed Jul 10 22:04:37.513783 2019] [mpm_prefork:notice] [pid 8] AH00163: Apache/2.4.25 (Debian) PHP/7.1.20 configured -- resuming normal operations
+[Wed Jul 10 22:04:37.514666 2019] [core:notice] [pid 8] AH00094: Command line: '/usr/sbin/apache2 -D FOREGROUND'
+[Wed Jul 10 22:05:20.173106 2019] [autoindex:error] [pid 9] [client 172.18.0.1:41344] AH01276: Cannot serve directory /var/www/: No matching DirectoryIndex (index.php,index.html) found, and server-generated directory index forbidden by Options directive
