@@ -15,6 +15,14 @@ RUN apt-get -y install --fix-missing apt-utils build-essential git curl libcurl3
 # Composer
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
+# nodejs
+RUN curl -sL https://deb.nodesource.com/setup_11.x  | bash -
+RUN apt-get -y install nodejs
+RUN npm install
+
+# yarn
+RUN npm install -g yarn
+
 # PHP Extensions
 RUN pecl install xdebug-2.5.5 \
     && docker-php-ext-enable xdebug \
