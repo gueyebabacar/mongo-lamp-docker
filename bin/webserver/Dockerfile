@@ -1,7 +1,11 @@
 FROM php:7.1.20-apache
 
-RUN apt-get -y update --fix-missing
-RUN apt-get upgrade -y
+RUN apt-get -y update --fix-missing && \
+    apt-get upgrade -y && \
+    apt-get install -y git
+
+# Install install git
+RUN apt-get install -y git
 
 # Install tools & libraries
 RUN apt-get -y install apt-utils nano wget dialog \

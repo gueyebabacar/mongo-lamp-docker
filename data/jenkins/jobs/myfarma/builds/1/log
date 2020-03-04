@@ -1,0 +1,25 @@
+Started by user [8mha:////4ItfoyIPbTTvoa0MfFQE5Z4quC5hZRzFrp9yaO9GscKhAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mgueye babacar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/myfarma
+using credential 1c3998f3-cc91-4f4c-8cd4-e576ca3d3955
+Cloning the remote Git repository
+Cloning repository https://gueyebaba@bitbucket.org/gueyebaba/myfarma.git
+ > git init /var/jenkins_home/workspace/myfarma # timeout=10
+Fetching upstream changes from https://gueyebaba@bitbucket.org/gueyebaba/myfarma.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://gueyebaba@bitbucket.org/gueyebaba/myfarma.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://gueyebaba@bitbucket.org/gueyebaba/myfarma.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://gueyebaba@bitbucket.org/gueyebaba/myfarma.git # timeout=10
+Fetching upstream changes from https://gueyebaba@bitbucket.org/gueyebaba/myfarma.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://gueyebaba@bitbucket.org/gueyebaba/myfarma.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ab0f037681c1d9f172483e83ed606f231ad91df2 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ab0f037681c1d9f172483e83ed606f231ad91df2 # timeout=10
+Commit message: "first commit"
+First time build. Skipping changelog.
+Finished: SUCCESS

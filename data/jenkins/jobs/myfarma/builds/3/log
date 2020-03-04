@@ -1,0 +1,19 @@
+Started by user [8mha:////4ItfoyIPbTTvoa0MfFQE5Z4quC5hZRzFrp9yaO9GscKhAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mgueye babacar
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/myfarma
+using credential 1c3998f3-cc91-4f4c-8cd4-e576ca3d3955
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gueyebaba@bitbucket.org/gueyebaba/myfarma.git # timeout=10
+Fetching upstream changes from https://gueyebaba@bitbucket.org/gueyebaba/myfarma.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://gueyebaba@bitbucket.org/gueyebaba/myfarma.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/develop^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/develop^{commit} # timeout=10
+Checking out Revision c0b476140469fba9d77515a005c4b457b78fd174 (refs/remotes/origin/develop)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c0b476140469fba9d77515a005c4b457b78fd174 # timeout=10
+Commit message: "refacto code"
+ > git rev-list --no-walk 32db000b96ccfe0d77f74469ae21d7bf358c5acd # timeout=10
+Finished: SUCCESS
