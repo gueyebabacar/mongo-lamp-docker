@@ -12,4 +12,7 @@ node {
      stage('Connect to container') {
             sh 'docker exec -i api-server cat /etc/*release*'
      }
+     stage('Test git installation') {
+          sh 'git branch'
+     }
 }
